@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Оформление вертикального меню</title>
+	<style>
+		.menu {
+			width:200px;
+			background:rgb(50, 175, 119);
+			margin: 40px;
+			padding: 5px;
+		}
+		
+		.menu ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.menu li {
+			padding: 5px;
+		}
+		
+		.menu li a {
+			display: block;
+			padding: 5px;
+			text-decoration: none;
+			color: rgb(22, 209, 97);
+			border: 1px solid whitesmoke;
+			border-bottom: none;
+			background-color: whitesmoke;
+			text-transform: uppercase;
+		}
+		
+		.menu li a:hover {
+			background-color: rgb(24, 122, 70);
+			color: rgb(49, 167, 98);
+		}
+	</style>
+</head>
+<body>
+	<nav class="menu">
+		<ul>
+			<li><a href="#">Фильмы</a></li>
+			<li><a href="#">Музыка</a></li>
+			<li><a href="#">Софт</a></li>
+			<li><a href="#">Игры</a></li>
+		</ul>
+	</nav>
+</body>
+</html>
