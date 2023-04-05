@@ -1,0 +1,16 @@
+
+        body {
+            background-color: rgb(61, 51, 51);
+            color: ghostwhite;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            text-align: right;
+            color: rgb(137, 191, 135);
+            font-family:sans-serif;
+        }
+        p {
+text-align: right;
+        }
+        em{
+            color:rgb(142, 74, 121);
+        }
