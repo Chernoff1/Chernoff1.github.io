@@ -82,7 +82,7 @@ export function camelize(str) {
  * @param {number} n 
  * @returns  массив, заполненный числами Фибоначчи до n-го (не включая его)
  */
-export function fibs(n) {
+export function fib(n) {
     let mas = [];
     for (let i = 0; i < n; i += 1) {
         mas.push(fib(i));
